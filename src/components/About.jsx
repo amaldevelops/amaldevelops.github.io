@@ -1,12 +1,13 @@
 function About() {
   return (
     <div>
-      <h1>Amal Kariyawasam - Full Stack Software Engineer, Melbourne</h1>
+      <h1>Amal Kariyawasam - Full Stack Developer, Melbourne</h1>
       <p>
-        Curious, lifelong learner with a proven diverse background solving
-        problems across multiple business domains, from Electronics Engineering
-        to Financial Planning. Experienced in developing numerous full stack,
-        open-source, and freelance software projects.
+        Life long learner and adaptable Full Stack Developer with a proven track
+        record of creating open-source projects across front-end and back-end
+        domains. Leveraging unique insights from careers in Electronic
+        Engineering, Financial Planning, and Office Administration to bring
+        fresh, holistic perspectives to complex software challenges.
       </p>
     </div>
   );
