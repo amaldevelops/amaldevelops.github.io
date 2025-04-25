@@ -1,7 +1,7 @@
 function TechStack() {
   return (
     <div className="techStackDiv">
-      <h2>Tech Stack</h2>
+      <h2>Tech Stack proficiency</h2>
       <div>
         <h3>Front End</h3>
         <img
