@@ -14,7 +14,7 @@ const fullStackProject_1 = {
   ProductionSiteURL: "http://www.amalk.au/full-stack-blog",
   Contributors: "Amal Kariyawasam",
   License: "GPL-3.0",
-  LastUpdated: "21/02/2025",
+  LastUpdated: "25/04/2025",
 };
 
 const fullStackProject_2 = {
@@ -349,6 +349,12 @@ function ProjectList() {
       </p>
 
       <h3>Total Projects: 22</h3>
+
+      <div className="fullStackProjectsDiv">
+        <Project {...fullStackProject_1} />
+        <Project {...fullStackProject_2} />
+      </div>
+
       <div className="frontEndProjectsDiv">
         <Project {...frontEndProject_1} />
         <Project {...frontEndProject_2} />
@@ -375,10 +381,7 @@ function ProjectList() {
         <Project {...backEndProject_4} />
       </div>
 
-      <div className="fullStackProjectsDiv">
-        <Project {...fullStackProject_1} />
-        <Project {...fullStackProject_2} />
-      </div>
+ 
     </div>
   );
 }
