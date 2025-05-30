@@ -2,9 +2,23 @@ import Project from "./Project";
 
 //Full Stack Projects
 
-const fullStackProject_1 = {
+const fullStackProject_4 = {
+  Project: "Full Stack Project 4 : Messaging app",
+  PreviewImage: "/project-previews/messaging-app.jpeg",
+  Description:
+    "Web app that allows users to send messages to each other. This project is designed to strengthen technical proficiency in building a secure web messaging app",
+  FrontEndStack: "JavaScript, React, Vite, HTML, CSS",
+  BackEndStack: "Node.js, Express, PostgreSQL, Prisma, Postman",
+  GitHubRepositoryURL: "https://github.com/amaldevelops/messaging-app/",
+  ProductionSiteURL: "https://www.amalk.au/messaging-app/",
+  Contributors: "Amal K.",
+  License: "GPL-3.0",
+  LastUpdated: "30/05/2025",
+};
+
+const fullStackProject_3 = {
   Project:
-    "Full Stack Project 1 : Node.js/Express Blog API and React Front-End Client (Reader and Writer)",
+    "Full Stack Project 3 : Node.js/Express Blog API and React Front-End Client (Reader and Writer)",
   PreviewImage: "/project-previews/blog-api.jpeg",
   Description:
     "This demo project is designed to strengthen technical proficiency in building a secure RESTful API - Authentication & Authorization via JWT, Role-Based Access Control, REST principles (statelessness, resource-based routing, uniform interface)",
@@ -33,8 +47,8 @@ const fullStackProject_2 = {
   LastUpdated: "17/05/2025",
 };
 
-const fullStackProject_3 = {
-  Project: "Full Stack Project 3 : Weather App (Python)",
+const fullStackProject_1 = {
+  Project: "Full Stack Project 1 : Weather App (Python)",
   PreviewImage: "/project-previews/weather-python.jpeg",
   Description: "Python Flask based Weather App",
   FrontEndStack: "JavaScript, HTML, CSS",
@@ -353,7 +367,7 @@ function ProjectList() {
     <div>
       <h2>Projects</h2>
       <p>
-        <strong>Total Full Stack Projects: 3 </strong>
+        <strong>Total Full Stack Projects: 4</strong>
       </p>
       <p>
         <strong>Total Front End Projects: 16 </strong>
@@ -363,12 +377,13 @@ function ProjectList() {
         <strong>Total Back End Projects: 4 </strong>
       </p>
 
-      <h3>Total Projects: 23</h3>
+      <h3>Total Projects: 24</h3>
 
       <div className="fullStackProjectsDiv">
-        <Project {...fullStackProject_1} />
-        <Project {...fullStackProject_2} />
+        <Project {...fullStackProject_4} />
         <Project {...fullStackProject_3} />
+        <Project {...fullStackProject_2} />
+        <Project {...fullStackProject_1} />
       </div>
 
       <div className="frontEndProjectsDiv">
