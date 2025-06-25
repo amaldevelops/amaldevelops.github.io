@@ -26,11 +26,15 @@ function Project({
   return (
     <div className="individualProjectDiv">
       <h2>{projectInfo.Project}</h2>
-      <img
-        src={projectInfo.PreviewImage}
-        alt="Project Preview Image"
-        className="previewImage"
-      />
+
+      <a href={projectInfo.ProductionSiteURL} target="_blank">
+        <img
+          src={projectInfo.PreviewImage}
+          alt="Project Preview Image"
+          className="previewImage"
+        />
+      </a>
+
       <p>
         <strong></strong> {projectInfo.Description}
       </p>
