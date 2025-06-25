@@ -32,7 +32,7 @@ const fullStackProject_4 = {
 
 const fullStackProject_3 = {
   Project:
-    "Full Stack Project 3 : Node.js/Express Blog API and React Front-End Client (Reader and Writer)",
+    "Full Stack Project 3 : Full Stack Blog API / Front End (Reader and Writer)",
   PreviewImage: "/project-previews/blog-api.jpeg",
   Description:
     "This demo project is designed to strengthen technical proficiency in building a secure RESTful API - Authentication & Authorization via JWT, Role-Based Access Control, REST principles (statelessness, resource-based routing, uniform interface)",
