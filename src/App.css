@@ -2,7 +2,7 @@
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
-  font-size: 10px;
+  font-size: 16px;
 
   color-scheme: light dark;
   color: #000000;
@@ -15,6 +15,8 @@
 
   max-width: 100%;
   height: auto;
+  margin: 0 auto;
+  text-align: center;
 }
 
 a {
@@ -27,26 +29,15 @@ a:hover {
 }
 
 body {
-  margin: 0;
+  margin: 1rem;
   display: flex;
   place-items: center;
-  /* min-width: 32rem;
-  min-height: 100vh; */
-
-  max-width: 100%;
-  height: auto;
+  font-size: 1rem;
 }
 
 h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
-}
-
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+  font-size: 3rem;
+  line-height: 1;
 }
 
 .aboutDiv {
@@ -64,14 +55,14 @@ h1 {
 }
 
 .techStackLogos {
-  width: 70px;
-  height: 70px;
+  width: 50px;
+  height: 50px;
   padding: 5px;
 }
 
 .externalLinkLogos {
-  width: 70px;
-  height: 70px;
+  width: 50px;
+  height: 50px;
   padding: 5px;
 }
 
@@ -100,7 +91,7 @@ h1 {
 
 .fullStackProjectsDiv {
   border: 1px solid #070707;
-  background-color: #73d2ec;
+  background-color: #f5683a;
   margin-top: 10px;
   margin-bottom: 10px;
   padding: 1px;
@@ -113,10 +104,9 @@ h1 {
 }
 
 .previewImage {
-  max-width: 100%;
-  height: auto;
+  max-width: 100%; /*Make image responsive*/
+  height: auto; /*Make image responsive*/
 }
- .header
- {
+.header {
   border: 1px solid #070707;
- }
+}
