@@ -2,6 +2,20 @@ import Project from "./Project";
 
 //Full Stack Projects
 
+const fullStackProject_5 = {
+  Project: "Full Stack Project 5 : Social Circle - Social networking app",
+  PreviewImage: "/project-previews/social-circle-app.jpeg",
+  Description:
+    "Secure web based social networking app using standard web technologies",
+  FrontEndStack: "JavaScript, React, Vite, HTML, CSS",
+  BackEndStack: "Node.js, Express, PostgreSQL, Prisma, Postman",
+  GitHubRepositoryURL: "https://github.com/amaldevelops/social-circle-app",
+  ProductionSiteURL: "https://www.amalk.au/social-circle-app",
+  Contributors: "Amal Kariyawasam",
+  License: "GPL-3.0",
+  LastUpdated: "25/06/2025",
+};
+
 const fullStackProject_4 = {
   Project: "Full Stack Project 4 : Messaging app",
   PreviewImage: "/project-previews/messaging-app.jpeg",
@@ -11,7 +25,7 @@ const fullStackProject_4 = {
   BackEndStack: "Node.js, Express, PostgreSQL, Prisma, Postman",
   GitHubRepositoryURL: "https://github.com/amaldevelops/messaging-app/",
   ProductionSiteURL: "https://www.amalk.au/messaging-app/",
-  Contributors: "Amal K.",
+  Contributors: "Amal Kariyawasam",
   License: "GPL-3.0",
   LastUpdated: "30/05/2025",
 };
@@ -380,6 +394,7 @@ function ProjectList() {
       <h3>Total Projects: 24</h3>
 
       <div className="fullStackProjectsDiv">
+        <Project {...fullStackProject_5} />
         <Project {...fullStackProject_4} />
         <Project {...fullStackProject_3} />
         <Project {...fullStackProject_2} />
