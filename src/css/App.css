@@ -2,7 +2,7 @@
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 10px;
 
   color-scheme: light dark;
   color: #000000;
@@ -12,6 +12,9 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  max-width: 100%;
+  height: auto;
 }
 
 a {
@@ -27,8 +30,11 @@ body {
   margin: 0;
   display: flex;
   place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+  /* min-width: 32rem;
+  min-height: 100vh; */
+
+  max-width: 100%;
+  height: auto;
 }
 
 h1 {
@@ -36,7 +42,7 @@ h1 {
   line-height: 1.1;
 }
 
-button {
+/* button {
   border-radius: 8px;
   border: 1px solid transparent;
   padding: 0.6em 1.2em;
@@ -49,13 +55,13 @@ button {
 }
 button:hover {
   border-color: #646cff;
-}
-button:focus,
+} */
+/* button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
-}
+} */
 
-@media (prefers-color-scheme: light) {
+/* @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
     background-color: #ffffff;
@@ -66,7 +72,7 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
-}
+} */
 
 #root {
   max-width: 1280px;
