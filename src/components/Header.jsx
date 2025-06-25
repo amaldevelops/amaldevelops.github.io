@@ -1,7 +1,7 @@
 function Header() {
   return (
-    <div>
-      <div className="header">
+    <div className="header">
+      <div >
         <h3>Connect with me</h3>
         <a href="https://github.com/amaldevelops" target="_blank">
           <img
@@ -19,7 +19,7 @@ function Header() {
         </a>
       </div>
 
-      <div className="header">
+      <div >
         <h3>Quick Links</h3>
         <a href="https://www.amalk.au/tech-lexicon" target="_blank">
           <img
