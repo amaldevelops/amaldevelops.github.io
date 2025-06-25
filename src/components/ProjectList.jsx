@@ -381,7 +381,7 @@ function ProjectList() {
     <div>
       <h2>Projects</h2>
       <p>
-        <strong>Total Full Stack Projects: 4</strong>
+        <strong>Total Full Stack Projects: 5</strong>
       </p>
       <p>
         <strong>Total Front End Projects: 16 </strong>
@@ -391,7 +391,7 @@ function ProjectList() {
         <strong>Total Back End Projects: 4 </strong>
       </p>
 
-      <h3>Total Projects: 24</h3>
+      <h3>Total Projects: 25</h3>
 
       <div className="fullStackProjectsDiv">
         <Project {...fullStackProject_5} />
@@ -399,6 +399,13 @@ function ProjectList() {
         <Project {...fullStackProject_3} />
         <Project {...fullStackProject_2} />
         <Project {...fullStackProject_1} />
+      </div>
+
+      <div className="backEndProjectsDiv">
+        <Project {...backEndProject_1} />
+        <Project {...backEndProject_2} />
+        <Project {...backEndProject_3} />
+        <Project {...backEndProject_4} />
       </div>
 
       <div className="frontEndProjectsDiv">
@@ -418,13 +425,6 @@ function ProjectList() {
         <Project {...frontEndProject_14} />
         <Project {...frontEndProject_15} />
         <Project {...frontEndProject_16} />
-      </div>
-
-      <div className="backEndProjectsDiv">
-        <Project {...backEndProject_1} />
-        <Project {...backEndProject_2} />
-        <Project {...backEndProject_3} />
-        <Project {...backEndProject_4} />
       </div>
     </div>
   );
