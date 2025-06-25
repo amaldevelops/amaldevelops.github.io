@@ -60,21 +60,29 @@ function Project({
         {projectInfo.LastUpdated}
       </p>
 
-      <a href={projectInfo.GitHubRepositoryURL} target="_blank">
-        <img
-          src="/logos/logo-github.svg"
-          alt="GitHub Repository URL"
-          className="externalLinkLogos"
-        />
-      </a>
+      <div>
+        <a href={projectInfo.GitHubRepositoryURL} target="_blank">
+          <figure>
+            <img
+              src="/logos/logo-github.svg"
+              alt="GitHub Repository URL"
+              className="externalLinkLogos"
+            />
+            <figcaption>Source Code on GitHub</figcaption>
+          </figure>
+        </a>
 
-      <a href={projectInfo.ProductionSiteURL} target="_blank">
-        <img
-          src="/logos/logo-cloud.png"
-          alt="Production Site URL"
-          className="externalLinkLogos"
-        />
-      </a>
+        <a href={projectInfo.ProductionSiteURL} target="_blank">
+          <figure>
+            <img
+              src="/logos/logo-cloud.png"
+              alt="Production Site URL"
+              className="externalLinkLogos"
+            />
+            <figcaption>Live Demo</figcaption>
+          </figure>
+        </a>
+      </div>
     </div>
   );
 }

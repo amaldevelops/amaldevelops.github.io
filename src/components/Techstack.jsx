@@ -1,7 +1,7 @@
 function TechStack() {
   return (
     <div className="techStackDiv">
-      <h2>Tech Stack proficiency</h2>
+      <h2>Tech Stack</h2>
       <div>
         <h3>Front End</h3>
         <img
@@ -137,7 +137,7 @@ function TechStack() {
       </div>
 
       <div>
-        <h3>Hardware / Electronics</h3>
+        <h3>Hardware | Electronics</h3>
         <img
           src="/logos/logo-raspberryPi.svg"
           className="techStackLogos"
