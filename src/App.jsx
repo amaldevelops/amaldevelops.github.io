@@ -1,10 +1,10 @@
-import "../App.css";
+import "./App.css";
 
-import Header from "./Header";
-import About from "./About";
-import TechStack from "./Techstack";
-import ProjectList from "./ProjectList";
-import Footer from "./Footer";
+import Header from "./components/Header";
+import About from "./components/About";
+import TechStack from "./components/Techstack";
+import ProjectList from "./components/ProjectList";
+import Footer from "./components/Footer";
 
 function App() {
   return (
