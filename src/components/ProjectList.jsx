@@ -335,7 +335,7 @@ const backEndProject_2 = {
 
 const backEndProject_3 = {
   Project: "Back End Project 3 :  Mini message board",
-  PreviewImage: "/logos/logo-noPreview.png",
+  PreviewImage: "/project-previews/mini-message-board.jpeg",
   Description:
     "This interactive web application allows users to post and view messages. Built using Express.js, PostgreSQL and EJS, this project demonstrates key concepts in building server-side web applications.",
   FrontEndStack: "EJS (Embedded JavaScript templating), HTML, CSS",
