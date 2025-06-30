@@ -349,7 +349,7 @@ const backEndProject_3 = {
 
 const backEndProject_4 = {
   Project: "Back End Project 4 : File uploader (CRUD)",
-  PreviewImage: "/logos/logo-noPreview.png",
+  PreviewImage: "/project-previews/file-uploader-crud.jpeg",
   Description:
     "Personal storage CRUD ( Create, Read, Update and Delete) service using NodeJs, Express, Prisma, Passport",
   FrontEndStack: "EJS (Embedded JavaScript templating), HTML, CSS",
